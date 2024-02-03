@@ -1,0 +1,18 @@
+<!--<!ELEMENT student (id, name, phone)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>-->
+
+<!ELEMENT student (module+)>
+
+<!ATTLIST student
+    id ID #REQUIRED
+    name CDATA #REQUIRED
+    department CDATA #FIXED 'CS'
+>
+
+<!ELEMENT module EMPTY>
+<!ATTLIST module
+    code CDATA #REQUIRED
+    level CDATA (100|200|300|400) #REQUIRED
+>

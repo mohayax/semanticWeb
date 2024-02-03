@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<email>
+	<head>
+		<from	
+            name="Muhammad Yakubu"
+            address="muhammad@email.com"
+        />
+		
+        <to		
+            name="Abubakar Abubakar"
+            address="abubakar@email.com"
+        />
+		
+	</head>
+	<body>
+        Example 2!
+	</body>
+</email>
