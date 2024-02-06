@@ -10,9 +10,9 @@
     name CDATA #REQUIRED
     department CDATA #FIXED 'CS'
 >
-
+<!ENTITY values "100|200|300|400">
 <!ELEMENT module EMPTY>
 <!ATTLIST module
     code CDATA #REQUIRED
-    level CDATA (100|200|300|400) #REQUIRED
+    level (100|200|300|400) #REQUIRED
 >
